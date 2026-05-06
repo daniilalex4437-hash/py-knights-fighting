@@ -1,6 +1,3 @@
-from app.knights_data import KNIGHTS
-
-
 def get_knight_stats(knight: dict) -> dict:
     stats = {
         "name": knight["name"],
